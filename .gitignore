@@ -1,0 +1,38 @@
+# Dependências e Builds
+node_modules/
+.vercel/
+dist/
+build/
+
+# Pastas Temporárias e Clones Auxiliares
+_temp/
+scratch/
+
+# Variáveis de Ambiente e Segredos
+.env
+.env.*
+*.env
+*.local
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
